@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header {
+    width: 100%;
+    height: 160px;
+}
+
+.mainheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo img {
+    width: 210px;
+}
+
+.mainheader .logo {
+    margin-left: 60px;
+}
+
+.mainheader nav {
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainheader nav a {
+    text-decoration: none;
+    color: #242424;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+.active {
+    color: #2CB7DF !important;
+}
+
+.mainheader .headerbutton {
+    margin-right: 60px;
+}
+
+.mainheader .headerbutton button {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}
+
+.mainheader .headerbutton button:hover {
+    background: #2CB7DF;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+main .leftsection {
+    margin-left: 60px;
+}
+
+main .leftsection h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+main .leftsection h1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+main .leftsection p {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+
+main .leftsection button {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 40px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
+
+main .leftsection button:hover {
+    background: #2CB7DF;
+}
+
+main .rightsection {
+    margin-right: 0px;
+}
+
+main .rightsection img {
+    width: 750px;
+}
+
+article {
+    background: #fff;
+}
+
+article .ourservice {
+    padding: 60px 60px 20px 60px;
+}
+
+article .ourservice h1 {
+    font: 25px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+article .ourservice p {
+    font: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+.doctors {
+    margin: 0px 60px 60px 60px !important;
+}
+
+.doctors .card {
+    box-shadow: 5px 5px 100px 0px #D6F0FF;
+}
+
+.card-img-top:hover {
+    opacity: 0.5;
+}
+
+.card-title {
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 600;
+    color: #242424;
+}
+
+.card-title:hover {
+    color: #2CB7DF;
+}
+
+.card-text {
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.health {
+    padding: 0 60px;
+    background: #fff;
+    margin-bottom: 50px;
+}
+
+.health .card {
+    border: none;
+    background: #F8F8FB;
+    box-shadow: 5px 5px 10px 0px #242424;
+}
+
+.health button {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 8px 30px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 5px;
+}
+
+.health button:hover {
+    background: #2CB7DF;
+}
+
+footer {
+    width: 100%;
+    /* background-image: url("../public/images/footer.png"); */
+    background: #D6F0FF;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+footer .footertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 60px 0px 60px;
+}
+
+footer .footertop .footerabout {
+    width: 35%;
+    height: 400px;
+    border-right: 1px solid #9FDBFF;
+}
+
+footer .footertop .footerabout h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+footer .footertop .footerabout p {
+    font-size: 14px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-right: 50px;
+
+}
+
+footer .footertop .footerform {
+    width: 30%;
+    height: 400px;
+}
+
+footer .footertop .footerform h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+footer .footertop .footerform p {
+    font-size: 14px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-right: 50px;
+
+}
+
+footer .footertop .footerform button {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 40px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer .footertop .footerform button:hover {
+    background: #2CB7DF;
+}
+
+footer .footertop .footercontact {
+    width: 30%;
+    height: 400px;
+    border-left: 1px solid #9FDBFF;
+    padding-left: 25px;
+}
+
+footer .footertop .footercontact h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+footer .footertop .footercontact .fahome {
+    font-size: 25px;
+    color: #2CB7DF;
+}
+
+footer .footertop .footercontact p {
+    font-size: 14px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+footer .footertop .footercontact p a {
+    text-decoration: none;
+    color: #242424;
+}
+
+footer .footertop .footercontact .socialmedia {
+    margin-top: 50px;
+}
+
+footer .footertop .footercontact .facebook {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .facebook:hover {
+    color: #4267B2;
+}
+
+footer .footertop .footercontact .youtube {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .youtube:hover {
+    color: #FF0000;
+}
+
+footer .footertop .footercontact .twitter {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .twitter:hover {
+    color: #1DA1F2;
+}
+
+footer .footertop .footercontact .linkedin {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .linkedin:hover {
+    color: #0270AD;
+}
+
+footer .footertop .footercontact .instagram {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .instagram:hover {
+    color: #C13584;
+}
+
+footer .footertop .footercontact .pinterest {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .pinterest:hover {
+    color: #E60023;
+}
+
+footer .footertop .footercontact .skype {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .skype:hover {
+    color: #0270AD;
+}
+
+footer .footertop .footercontact .whatsapp {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .whatsapp:hover {
+    color: #49C95A;
+}
+
+footer .footertop .footercontact .gplus {
+    font-size: 30px;
+    color: #2CB7DF;
+    padding: 0 8px 0 0;
+}
+
+footer .footertop .footercontact .gplus:hover {
+    color: #dd4b39;
+}
+
+footer .copyright {
+    text-align: center;
+    border-top: 1px solid #9FDBFF;
+}
+
+footer .copyright h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 10px 0;
+    color: #242424;
+}
+
+footer .copyright p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
