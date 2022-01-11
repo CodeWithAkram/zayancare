@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zayancare/static/css/main.7350594c.css",
+    "main.js": "/zayancare/static/js/main.1811fa93.js",
+    "static/media/bg.png": "/zayancare/static/media/bg.23853409bbff584fafa6.png",
+    "index.html": "/zayancare/index.html",
+    "main.7350594c.css.map": "/zayancare/static/css/main.7350594c.css.map",
+    "main.1811fa93.js.map": "/zayancare/static/js/main.1811fa93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7350594c.css",
+    "static/js/main.1811fa93.js"
+  ]
+}
